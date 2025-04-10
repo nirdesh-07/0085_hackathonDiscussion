@@ -1,0 +1,10 @@
+def sansaXor(arr):
+    n = len(arr)
+    if n % 2 == 0:
+        return 0  # All elements appear even times
+    else:
+        result = 0
+        for i in range(0, n, 2):  # Only odd-count positions
+            result ^= arr[i]
+        return result
+        
