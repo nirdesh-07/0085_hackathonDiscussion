@@ -1,7 +1,3 @@
-//consecutive-subsequences.cpp
-//Consecutive Subsequences
-//Weekly Challenges - Week 6
-//Author: derekhh
 
 #include<iostream>
 #include<cstring>
